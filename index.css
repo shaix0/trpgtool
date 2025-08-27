@@ -1,2 +1,77 @@
 ﻿body {
 }
+
+.upload-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-upload-button:hover {
+    background-color: #0056b3;
+}
+
+/* 圖片列表樣式 */
+.image-list-container {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.toggle-list-btn {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.image-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.image-list li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.image-list li:last-child {
+    border-bottom: none;
+}
+
+.image-thumb {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.image-name {
+    font-size: 15px;
+    color: #333;
+    word-break: break-all;
+}
